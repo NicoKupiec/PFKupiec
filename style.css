@@ -121,6 +121,22 @@ header {
     }
 }
 
+.titulo-h1 {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 0px 30px;
+    margin: 0 5px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.titulo-h1:hover {
+    color: #f0f0f0;
+}
+
 /* TARJETAS */ 
 
 .card-container {
@@ -333,6 +349,8 @@ footer i{
     font-family: "Prompt", sans-serif;
     font-style: 20px;
 }
+
+
 
 .contenedor{
     margin-top: 20px;
