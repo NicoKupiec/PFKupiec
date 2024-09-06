@@ -1,0 +1,257 @@
+// base 
+@import 'base/vars';
+@import 'base/utilities';
+@import 'base/reset';
+
+// components
+@import 'components/carousel';
+@import 'components/navbar';
+@import 'components/card';
+@import 'components/footer';
+
+// layout
+@import 'layout/index';
+@import 'layout/mediaqueries';
+
+/* PÁGINA PRINCIPAL */
+
+/* MENU */
+
+/* ver layout */
+
+/* TARJETAS */ 
+
+/* tabla */
+
+#contenedorTabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 180px;
+    height: 150px;
+}
+
+table{
+    color: #fff;
+    background-color: #222;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 30px;
+    border-bottom: solid 5px #fff;
+}
+
+thead{
+    background-color: rgb(71, 69, 69);
+    border-bottom: solid 5px #fff;
+    border-top: solid 5px #fff;
+    color: white;
+}
+
+
+
+/* imagenes Banda */
+
+.column-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column-img img{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-img{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.column-img{
+    width: 100%;
+    flex: 25%;
+    padding: 10px;
+}
+
+.column-img img{
+    margin-top: 5px;
+    border-radius: 7%;
+}
+
+
+
+/* Footer */
+
+/* ver components footer.scss */
+
+
+/* SUB PÁGINAS */
+
+/* fechas */
+
+#contenedorTablaFechas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+#entradasFechas{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+    font-family: "Prompt", sans-serif;
+    font-style: 20px;
+}
+
+/* Cards */
+
+/* ver components card.scss */
+
+/* Musica */
+
+.container-musica .music-heading {
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 .5rem 1rem #000;
+    color: $color-white;
+}
+
+.music-container {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    
+    .box {
+        height: 16rem;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        background-color: $color-white;
+        border-radius: 1rem;
+        box-shadow: 0 .5rem 1rem #000;
+        overflow: hidden;
+        margin: 2rem;
+
+        .image {
+            height: 100%;
+            width: 25%;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.container-musica .music-container .box .music {
+    width: 75%;
+
+    audio {
+        width: 100%;
+        outline: none;
+        audio::-webkit-media-controls-enclosure {
+            background: none;
+            p {
+                padding: 20px;
+                font-size: 17px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+}
+
+
+/* BANDA */
+
+/* ver en archivo component*/
+
+/* MEDIA */
+
+.galeria-titulo{
+    font-size: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 .5rem 1rem #000;
+    color: #fff;
+
+}
+
+/* estilo galeria GRID */
+
+.contenedorGaleria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+
+.galeriaImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.contenedorItem:nth-child(1) {
+    grid-column-start: span 3;
+}
+
+.contenedorItem:nth-child(3) {
+    grid-column-start: span 2;
+}
+
+.contenedorItem:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+.contenedorItem:nth-child(5) {
+    grid-row-start: span 2;
+}
+
+/* NOTICIAS */
+
+.section-noticias {
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+}
+
+.section-noticias img {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.section-noticias h3 {
+    margin: 0;
+    color: $color-white;
+}
+
+.section-noticias p {
+    color: $color-white;
+    margin-right: 15 px;
+}

@@ -1,0 +1,43 @@
+/* carousel */
+
+#carouselExampleCaptions{
+    margin: 20px auto;
+}
+
+.slide{
+    align-self: center;
+    justify-self: center;
+    margin-top: 10px;
+    width: 700px;
+
+        img{
+            align-self: center;
+            justify-self: center;
+            height: 900px;
+            border-radius: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .slide{
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .slide{
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: auto;
+    }
+}

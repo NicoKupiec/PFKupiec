@@ -1,0 +1,30 @@
+@mixin flex($align, $justify, $gap) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    gap: $gap;
+}
+
+.titulo-h1 {
+    @include flex(center, center, 20px);
+}
+
+.contenedor {
+    @include flex(center, center, 20px);
+}
+
+#entradas {
+    @include flex(center, center, 20px);
+}
+
+#carouselExampleCaptions {
+    @include flex(center, center, 20px);
+}
+
+.slide {
+    @include flex(center, center, 20px);
+}
+
+.img {
+    @include flex(center, center, 20px);
+}
