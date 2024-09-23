@@ -71,6 +71,7 @@ header {
         background: $color-black;
         transition: 0.5s;
         overflow: hidden;
+        z-index: 2;
     }
     .nav-bar.active {
         height: 250px;

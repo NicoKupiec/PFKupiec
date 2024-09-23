@@ -23,16 +23,6 @@
 
 /* tabla */
 
-#contenedorTabla{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 200px;
-    margin-bottom: 180px;
-    height: 150px;
-}
-
 table{
     color: #fff;
     background-color: #222;
@@ -66,11 +56,11 @@ thead{
 /* fechas */
 
 #contenedorTablaFechas{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: auto;
 }
 
 #entradasFechas{

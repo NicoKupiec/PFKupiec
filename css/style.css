@@ -153,6 +153,7 @@ header {
     background: #11101b;
     transition: 0.5s;
     overflow: hidden;
+    z-index: 2;
   }
   .nav-bar.active {
     height: 250px;
@@ -351,16 +352,6 @@ footer i {
 /* ver layout */
 /* TARJETAS */
 /* tabla */
-#contenedorTabla {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 200px;
-  margin-bottom: 180px;
-  height: 150px;
-}
-
 table {
   color: #fff;
   background-color: #222;
@@ -390,7 +381,6 @@ thead {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: auto;
 }
 
 #entradasFechas {
