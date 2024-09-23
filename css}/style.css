@@ -173,13 +173,6 @@ header {
     margin-bottom: 12px;
   }
 }
-@media only screen and (max-width: 500px) {
-  .logo img {
-    color: #11101b;
-    border-radius: 50%;
-    width: 100px;
-  }
-}
 /* card */
 .contenedor {
   margin-top: 20px;

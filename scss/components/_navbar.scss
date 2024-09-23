@@ -91,3 +91,11 @@ header {
         margin-bottom: 12px;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .logo img{
+        color: $color-black;
+        border-radius: 50%;
+        width: 100px;
+    }
+}
